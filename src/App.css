@@ -1,0 +1,37 @@
+.default-layout {
+  display: gird;
+  grid-template-rows: 80px auto 3rem;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  min-height: 88vh;
+}
+
+footer {
+  grid-area: footer;
+  background: black;
+  padding: 1rem;
+  color: white;
+}
+
+.bck{
+  background-color: #662D91;
+}
+.text-bck{
+  color: #662D91;
+}
+
+.user-role {
+    font-size: large;
+    font-weight: 900;
+    text-decoration: underline
+}
